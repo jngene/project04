@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/*main, main * { border: 1px solid hotpink; }*/
+/*footer, footer * { border: 1px solid hotpink; }*/
 
 
 body {
@@ -83,7 +83,7 @@ h1 {
 }
 
 /************************************************ Game Content */
-main { margin-top: 175px; }
+main { margin-top: 30px; }
 main section { margin-top: 125px; }
 main img { border-radius: 15px; }
 h2 {
@@ -109,54 +109,24 @@ h2, h3, h4 { font-weight: 700; }
 }
 .gameplay .section-2 img { margin-bottom: 60px; }
 
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+.flex img {
+	margin-top: 20px;
+}
+.flex div {
+	width: 490px;
+	margin-top: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/************************************************ Footer */
+footer {
+	margin-top: 100px;
+	padding: 40px 0px 40px 0px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	font-style: italic;
+}
