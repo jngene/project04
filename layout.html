@@ -9,76 +9,93 @@
 	</head>
 
 	<body>
-		<div class="container">
-			<nav>
-				<a href="index.html"><img src="images/logo.svg"></a>
-				<ul>
-					<li><a href="scrabble.html">Scrabble</a></li>
-					<li><a href="backgammon.html">Backgammon</a></li>
-					<li><a href="snakes-ladders.html">Snakes & Ladders</a></li>
-					<li><a href="risk.html">Risk</a></li>
-				</ul>
+		<div class="container" id="accent-main">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="navbar-brand" href="index.html"><img src="images/logo.svg" width="180"></a>
+					<ul class="navbar-nav uppercase bold">
+						<li class="nav-item"><a class="nav-link" href="scrabble.html">Scrabble</a></li>
+						<li class="nav-item"><a class="nav-link" href="backgammon.html">Backgammon</a></li>
+						<li class="nav-item"><a class="nav-link" href="snakes-ladders.html">Snakes & Ladders</a></li>
+						<li class="nav-item"><a class="nav-link" href="risk.html">Risk</a></li>
+					</ul>
 			</nav>
 
 			<!-- Game Header -->
 
-			<header>
-				<img src="https://via.placeholder.com/535x145.png" alt="">
+			<header class="display-grid main-layout">
+				<img class="section-1" src="https://via.placeholder.com/535x145.png" alt="">
 
-				<div>Genre</div>
-				<h1>Game</h1>
-					<span>Created by [name] // Published by [name] on [date]</span>
-					<div># of 👨👩👧👦: 8</div>
-					<div>Steup 🕘: 15 mins</div>
-					<div>Playing 🕘: 15 mins</div>
+				<section class="section-2">
+					<div><span class="genre uppercase bold accent">Genre</span></div>
+					<h1 class="uppercase">Game</h1>
+						<span class="game-credits">Created by [name] // Published by [name] on [date]</span>
+						<div class="game-details display-grid main-layout">
+							<div class="bold"># of 👨👩👧👦: 8</div>
+							<div class="bold">Steup 🕘: 15 mins</div>
+							<div class="bold">Play 🕘: 15 mins</div>
+						</div>
+				</section>
 			</header>
 
-			<!-- Game Page Content --> 
-
+			<!-- Game Page Content -->
 			<main>
-				<section>
+				<section class="gameplay display-grid main-layout">
 					<h2>Gameplay</h2>
-						<h3>Rules</h3>
-							<ul>
-								<li>Massa massa ultricies mi quis hendrerit. Habitasse platea dictumst quisque sagittis.</li>
-								<li>Pellentesque id nibh tortor id. Enim nunc faucibus a pellentesque.</li>
-								<li>Mauris sit amet massa vitae tortor condimentum lacinia quis.</li>
-								<li>Ridiculus mus mauris vitae ultricies leo integer malesuada. Sociis natoque penatibus et magnis dis parturient montes nascetur.</li>
-							</ul>
-						<h3>Sequence of play</h3>
-							<ol>
-								<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-								<li>Fermentum leo vel orci porta non pulvinar neque. Mi eget mauris pharetra et ultrices neque.</li>
-								<li>Dui vivamus arcu felis bibendum.</li>
-								<li>Quisque sagittis purus sit amet volutpat consequat. Molestie nunc non blandit massa. </li>
-								<li>Ultricies leo integer malesuada nunc vel risus.</li>
-								<li>Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum.</li>
-								<li>Lacus vestibulum sed arcu non odio. Purus faucibus ornare suspendisse sed nisi. Sed tempus urna et pharetra pharetra massa.</li>
-							</ol>
-						<h3>Determining a winner</h3>
-							<p>Urna neque viverra justo nec ultrices dui sapien eget. Volutpat ac tincidunt vitae semper quis lectus nulla at. Dolor sit amet consectetur adipiscing. <span>Est ultricies integer quis auctor elit!</span></p>
 
-					<img src="https://via.placeholder.com/440x295.png" alt="">
-					<img src="https://via.placeholder.com/440x295.png" alt="">
+					<div class="section-1">
+						<h3>Rules</h3>
+						<ul>
+							<li>Massa massa ultricies mi quis hendrerit. Habitasse platea dictumst quisque sagittis.</li>
+							<li>Pellentesque id nibh tortor id. Enim nunc faucibus a pellentesque.</li>
+							<li>Mauris sit amet massa vitae tortor condimentum lacinia quis.</li>
+							<li>Ridiculus mus mauris vitae ultricies leo integer malesuada. Sociis natoque penatibus et magnis dis parturient montes nascetur.</li>
+						</ul>
+
+						<h3>Sequence of play</h3>
+						<ol>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+							<li>Fermentum leo vel orci porta non pulvinar neque. Mi eget mauris pharetra et ultrices neque.</li>
+							<li>Dui vivamus arcu felis bibendum.</li>
+							<li>Quisque sagittis purus sit amet volutpat consequat. Molestie nunc non blandit massa. </li>
+							<li>Ultricies leo integer malesuada nunc vel risus.</li>
+							<li>Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum.</li>
+							<li>Lacus vestibulum sed arcu non odio. Purus faucibus ornare suspendisse sed nisi. Sed tempus urna et pharetra pharetra massa.</li>
+						</ol>
+
+						<h3>Determining a winner</h3>
+						<p>Urna neque viverra justo nec ultrices dui sapien eget. Volutpat ac tincidunt vitae semper quis lectus nulla at. Dolor sit amet consectetur adipiscing. <span class="bold accent">Est ultricies integer quis auctor elit!</span></p>
+					</div>
+
+					<div class="section-2">
+						<img src="https://via.placeholder.com/440x295.png" alt="">
+						<img src="https://via.placeholder.com/440x295.png" alt="">
+					</div>
 				</section> <!-- End of Gameplay -->
 
-				<section>
-					<img src="https://via.placeholder.com/440.png" alt="">
+				<section class="display-grid main-layout">
+					<div class="section-1">
+						<img src="https://via.placeholder.com/440.png" alt="">
+					</div>
 
-					<h2>Strategy</h2>
+					<div class="section-2">
+						<h2>Strategy</h2>
+
 						<h3>Overview</h3>
-							<p>Massa massa ultricies mi quis hendrerit. Habitasse platea dictumst quisque sagittis. Pellentesque id nibh tortor id. Enim nunc faucibus a pellentesque. Mauris sit amet massa vitae tortor condimentum lacinia quis. Ridiculus mus mauris vitae ultricies leo integer malesuada. Sociis natoque penatibus et magnis dis parturient montes nascetur.</p>
+						<p>Massa massa ultricies mi quis hendrerit. Habitasse platea dictumst quisque sagittis. Pellentesque id nibh tortor id. Enim nunc faucibus a pellentesque. Mauris sit amet massa vitae tortor condimentum lacinia quis. Ridiculus mus mauris vitae ultricies leo integer malesuada. Sociis natoque penatibus et magnis dis parturient montes nascetur.</p>
 
-						<h3>Examples of strategies</h3>
-							<h4>Strategy #1</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non pulvinar neque. Mi eget mauris pharetra et ultrices neque. Dui vivamus arcu felis bibendum.</p>
-							<h4>Strategy #2</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non pulvinar neque. Mi eget mauris pharetra et ultrices neque. Dui vivamus arcu felis bibendum.</p>
-							<h4>Strategy #3</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non pulvinar neque. Mi eget mauris pharetra et ultrices neque. Dui vivamus arcu felis bibendum.</p>
+						<h3>Types of strategies</h3>
+						<h4>Strategy #1</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non pulvinar neque. Mi eget mauris pharetra et ultrices neque. Dui vivamus arcu felis bibendum.</p>
 
-						<h3>Competitive Play</h3>
-							<p>Massa massa ultricies mi quis hendrerit. Habitasse platea dictumst quisque sagittis. Pellentesque id nibh tortor id. Enim nunc faucibus a pellentesque. Mauris sit amet massa vitae tortor condimentum lacinia quis. Ridiculus mus mauris vitae ultricies leo integer malesuada. Sociis natoque penatibus et magnis dis parturient montes nascetur.</p>
+						<h4>Strategy #2</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non pulvinar neque. Mi eget mauris pharetra et ultrices neque. Dui vivamus arcu felis bibendum.</p>
+
+						<h4>Strategy #3</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum leo vel orci porta non pulvinar neque. Mi eget mauris pharetra et ultrices neque. Dui vivamus arcu felis bibendum.</p>
+
+						<h3>Competitive play</h3>
+						<p>Massa massa ultricies mi quis hendrerit. Habitasse platea dictumst quisque sagittis. Pellentesque id nibh tortor id. Enim nunc faucibus a pellentesque. Mauris sit amet massa vitae tortor condimentum lacinia quis. Ridiculus mus mauris vitae ultricies leo integer malesuada. Sociis natoque penatibus et magnis dis parturient montes nascetur.</p>
+					</div>
 				</section> <!-- End of Strategy-->
 
 				<section>
