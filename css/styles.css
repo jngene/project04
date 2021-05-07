@@ -35,6 +35,17 @@ nav ul { font-size: 15.5px; }
 }
 .navbar-expand-lg { justify-content: space-between; }
 
+/************************************************ Index page */
+#main section {
+	margin-top: 100px;
+	display: grid;
+}
+#main section div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 /************************************************ Game Accent Colors */
 
 #main h2, #main h4, #main .accent { color: #FF7070; }
