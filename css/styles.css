@@ -1,21 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/*footer, footer * { border: 1px solid hotpink; }*/
-
-
 body {
 	font-family: 'Poppins', sans-serif;
 	letter-spacing: 0.02em;
 }
-
 p, ul, ol {
 	font-size: 15px;
 	line-height: 30px;
 }
-
 .container { max-width: 1090px; }
-
-
 
 /************************************************ REPEATS */
 .uppercase { text-transform: uppercase; }
@@ -48,7 +41,6 @@ nav li a:hover, nav li a:active, nav ul, .current { color: #FF7070 !important;}
 }
 
 /************************************************ Game Accent Colors */
-
 #main h2, #main h4, #main .accent { color: #FF7070; }
 #scrabble h2, #scrabble h4, #scrabble .accent { color: #C90000; }
 #backgammon h2, #backgammon h4, #backgammon .accent { color: #FF9300; }
