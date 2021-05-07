@@ -37,11 +37,11 @@ nav ul { font-size: 15.5px; }
 
 /************************************************ Game Accent Colors */
 
-#accent-main h2, #accent-main h4, #accent-main .accent { color: #FF7070; }
-#accent-scrabble h2, #accent-scrabble h4, #accent-scrabble .accent { color: ; }
-#accent-backgammon h2, #accent-backgammon h4, #accent-backgammon .accent { color: ; }
-#accent-snakes h2, #accent-snakes h4, #accent-snakes .accent { color: ; }
-#accent-risk h2, #accent-risk h4, #accent-risk .accent { color: ; }
+#main h2, #main h4, #main .accent { color: #FF7070; }
+#scrabble h2, #scrabble h4, #scrabble .accent { color: #C90000; }
+#backgammon h2, #backgammon h4, #backgammon .accent { color: #FF9300; }
+#snakes h2, #snakes h4, #snakes .accent { color: #659A42; }
+#risk h2, #risk h4, #risk .accent { color: #CA2A2C; }
 
 /************************************************ Game Header */
 header {
