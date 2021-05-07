@@ -34,6 +34,7 @@ nav ul { font-size: 15.5px; }
 	padding-left: 3.5rem;
 }
 .navbar-expand-lg { justify-content: space-between; }
+nav li a:hover, nav li a:active, nav ul, .current { color: #FF7070 !important;}
 
 /************************************************ Index page */
 #main section {
