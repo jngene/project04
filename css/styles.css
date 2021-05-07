@@ -57,6 +57,8 @@ h1 {
 	letter-spacing: 0.02em;
 	margin: -5px 0px -10px 0px;
 }
+#backgammon h1 { font-size: 55px; }
+#snakes h1 { line-height: 1.1em; }
 .game-credits {
 	font-size: 11px;
 	color: #9A9A9A;
